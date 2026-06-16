@@ -8,9 +8,9 @@
 // console.log(greet(username));
 
 
-function greet(name : string) : string {
+function greet(name : string): string {
     return `Hello, ${name}!`;
 }
 
-const name : string = "Alice";
-console.log(name)
+const name: string = "Alice";
+greet(name);

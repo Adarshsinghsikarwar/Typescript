@@ -206,3 +206,15 @@ function greet3(user: UserOrAdmin) {
 // }
 
 // getMax([1,2,3])
+
+
+
+
+function hello(fn: (a : number , b : number) => number) {
+    fn(5, 10);
+}
+
+let result = hello((a, b) => {
+    console.log("Hello from callback function", a, b);
+    return a + b;
+});
