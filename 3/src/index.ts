@@ -66,7 +66,7 @@ const user2 = {
 };
 
 // record and mapped types
-
+// Record<Keys, ValueType>
 type User4 = Record<string, string>;
 
 const user4: User4 = {

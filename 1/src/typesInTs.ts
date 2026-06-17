@@ -19,6 +19,8 @@ let result = add(5, 10);
 console.log(result);
 
 const nums = [1, 2, 3];
-nums.map((num) => num * 2);
+const doubled = nums.map((num) => num * 2);
 
-console.log(nums);
+console.log(doubled);
+
+

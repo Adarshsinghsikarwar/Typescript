@@ -12,7 +12,7 @@
 let x: number = 1;
 console.log(x);
 
-function greet(firstname: string) {
+function greet(firstname: string) : void {
   console.log("Hello" + firstname);
 }
 
@@ -65,7 +65,7 @@ function Todo(props: TodoInput) {
 
 // <Todo todo={{ title: "Learn TypeScript", description: "Study the basics of TypeScript", completed: false }} />;
 
-// type let you do union and inersection types, which are not possible with interfaces
+// type let you do union and intersection types, which are not possible with interfaces
 // interface does not let you do union and intersection types, which are possible with type aliases
 type StringOrNumber = string | number;
 

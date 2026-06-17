@@ -13,4 +13,4 @@ function greet(name : string): string {
 }
 
 const name: string = "Alice";
-greet(name);
+console.log(greet(name));
